@@ -44,19 +44,3 @@ async function createPaymentListFromAddressesArray(addresses: string[], amount: 
     }
     return paymentList;
 }
-
-//sendTransferHighLoad(testAddresses, 0.01, "Test HighLoad cashback")
-
-
-// async function sendManyTransfersHighloadWallet(count: number) {
-//     let i = 0, howManyTimes = count;
-//     async function loopHighloadTransfer() {
-//         console.log(i);
-//         sendTransferHighLoad();
-//         i++
-//         if (i < howManyTimes) {
-//             setTimeout(loopHighloadTransfer, 6000)
-//         }
-//     }
-//     loopHighloadTransfer()
-// }
